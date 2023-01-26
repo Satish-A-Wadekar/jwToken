@@ -1,6 +1,6 @@
 require("dotenv").config();
 const jwt = require("jsonwebtoken");
-const { JWT_SIGNATURE } = process.env;
+const { JWT_SIGNATURE, SIGNATURE_EXPIRY } = process.env;
 
 verifyToken = (req, res, next) => {
   let token = req.headers["x-access-token"] || req.query["x-access-token"];
@@ -17,9 +17,7 @@ verifyToken = (req, res, next) => {
     //param 2: Secrete key or Public key
     JWT_SIGNATURE, 
     //param 3: other optional parameters jason object
-    {
-      videoId: "77fa59ea-7856-59e9-b53c-a33c42ed198e",
-    },
+    {},
     //param 4: callback
     (err, decoded) => {
       if (err) {
@@ -47,7 +45,7 @@ generateToken = (req, res, next) => {
     //param 2: Secrete key or Private key
     JWT_SIGNATURE,
     //param 3: other optional parameters jason object
-    { expiresIn: '30s' },
+    { expiresIn: SIGNATURE_EXPIRY },
     //param 4: callback
     (err, token) => {
       if (err) {
