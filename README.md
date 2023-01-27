@@ -37,3 +37,9 @@ just do
 ```
 
 once the project is running, you can check the postman collection in the repo, just run the API's one by one
+
+for more configurations on JWT, you can refer this documentation
+https://www.npmjs.com/package/jsonwebtoken
+
+good luck, happy coding :)
+
