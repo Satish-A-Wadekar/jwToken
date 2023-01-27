@@ -27,7 +27,7 @@ To run this project, you will need to add the following environment variables to
 
 `JWT_SIGNATURE` any key or string which you would like to keep as token string
 
-`SIGNATURE_EXPIRY` set token expiration period
+`SIGNATURE_EXPIRY` set token expiration period, check options here https://github.com/vercel/ms
 ## Setup
 
 just do
