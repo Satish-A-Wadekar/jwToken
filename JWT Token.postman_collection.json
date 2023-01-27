@@ -30,7 +30,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/your_xyz_route?x-access-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzQ2Njc5NDQsImV4cCI6MTY3NDY2Nzk3NH0.gY58esurZFGzHVbp9XiPEnzYSvizGtP_x0aGu43PFhA",
+					"raw": "http://localhost:8000/your_xyz_route?x-access-token=",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -42,7 +42,7 @@
 					"query": [
 						{
 							"key": "x-access-token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzQ2Njc5NDQsImV4cCI6MTY3NDY2Nzk3NH0.gY58esurZFGzHVbp9XiPEnzYSvizGtP_x0aGu43PFhA"
+							"value": ""
 						}
 					]
 				}
