@@ -6,13 +6,13 @@ quick boilerplate of JSON Web token (jwToken), how to generate token and use it 
 
 #### Generate new token
 
-```http
+```
   GET /generateToken
 ```
 
 #### POST call
 
-```http
+```
   POST /your_xyz_route
 ```
 
@@ -32,7 +32,7 @@ To run this project, you will need to add the following environment variables to
 
 just do
 
-```http
+```
   npm install OR yarn install
 ```
 
