@@ -17,7 +17,7 @@ install all packages from `package.json`
 ```
 ### Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to add the following environment variables to your .env file at root level of your repo (i have a added .env_template file for ref)
 
 | Variables | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
