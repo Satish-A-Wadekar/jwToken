@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "d5779279-5f2c-4e2c-b1c7-6139e4ba69ba",
+		"name": "JWT Token",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get Token",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/generateToken",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"generateToken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "verify Token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/your_xyz_route",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"your_xyz_route"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

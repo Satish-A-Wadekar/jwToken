@@ -1,0 +1,21 @@
+{
+  "name": "jsonwebtoken",
+  "version": "1.0",
+  "description": "JWT token based demo application",
+  "main": "index.js",
+  "author": "Satish Wadekar, satish.a.wadekar@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.25.0",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
